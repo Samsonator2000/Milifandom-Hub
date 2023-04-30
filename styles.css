@@ -33,9 +33,58 @@ body{
 
 
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 30px 16px;
+  text-decoration: none;
+  float: right;
+  
+}
+
+li p {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  font-size: 200%;
+}
+li a img {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  font-size: 200%;
+}
 
 
 
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+
+
+
+
+/*
 ul {
   list-style-type: none;
   margin: 0;
@@ -72,7 +121,7 @@ li a img{
 li a:hover {
   background-color: #111;
 }
-
+*/
 
 .dropdown {
   float: left;
