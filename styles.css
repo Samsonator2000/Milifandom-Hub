@@ -57,6 +57,14 @@ li a {
   text-decoration: none;
   background-color: #333;
 }
+li h1 {
+  background-color: #333;
+  text-align: center;
+  display: block;
+}
+li a img{
+  float: left;
+}
 
 li a:hover {
   background-color: #111;
@@ -74,9 +82,11 @@ li a:hover {
   outline: none;
   color: white;
   padding: 14px 16px;
-  background-color: inherit;
+  background-color: #333;
   font-family: inherit;
   margin: 0;
+  float: right;
+
 }
 
 
